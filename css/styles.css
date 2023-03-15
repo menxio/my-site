@@ -1,9 +1,23 @@
-/*****************TAG SELECTORS*****************/
+/*****************TAG SELECTORS in ALPHABETICAL ORDER*****************/
+a{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+    font-weight: bold;
+    text-decoration: none;
+}
+
 body{
     color: #40514E;
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
+}
+
+hr{
+    border-style: dotted none none;
+    border-color: grey;
+    border-width: 5px;
+    width: 3%;
 }
 
 h1{
@@ -32,41 +46,11 @@ p{
     line-height: 2;
 }
 
-a{
-    font-family: 'Montserrat', sans-serif;
-    color: #11999E;
-    font-weight: bold;
-    text-decoration: none;
-}
+/*****************CLASS SELECTORS in ALPHABETICAL ORDER*****************/
 
-
-hr{
-    border-style: dotted none none;
-    border-color: grey;
-    border-width: 5px;
-    width: 3%;
-}
-
-/*****************CLASS SELECTORS*****************/
-.top-container{
-    background-color: #EAF6F6;
-    position: relative;
-    padding: 100px 0;
-}
-.middle-container{
-    position: relative;
-    padding: 100px 0;
-}
-.bottom-container{
-    background-color: #66BFBF;
-    position: relative;
-    padding: 50px 0 20px;
-}
-
-.top-cloud{
-    position: absolute;
-    top: 40px;
-    right: 250px;
+.active{
+    border-radius: 10px;
+    background-color: #424747;
 }
 
 .bottom-cloud{
@@ -75,46 +59,10 @@ hr{
     bottom: 300px;
 }
 
-.intro{
-    width: 40%;
-    margin: auto;
-}
-
-.profile{
-    width: 50%;
-    margin: 20px auto 90px auto;
-}
-
-.profile-img{
-    width: 25%;
-}
-
-.skills{
-    margin: 90px auto 90px auto;
-}
-
-.skill-row{
-    width: 50%;
-    margin: 100px auto 100px auto;
-    text-align: left;
-} 
-
-.code-img{
-    width: 25%;
-    float: left;
-    margin-right: 30px;
-}
-
-.sing-img{
-    width: 25%;
-    float: right;
-    margin-left: 30px;
-}
-
-.guitar-img{
-    width: 25%;
-    float: left;
-    margin-right: 30px;
+.bottom-container{
+    background-color: #66BFBF;
+    position: relative;
+    padding: 50px 0 20px;
 }
 
 .btn {
@@ -133,9 +81,8 @@ hr{
     padding: 10px 20px 10px 20px;
     text-decoration: none;
     font-weight: normal;
-    margin-bottom: ;
 }
-  
+
 .btn:hover {
     background: #30e3cb;
     background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
@@ -146,20 +93,16 @@ hr{
     text-decoration: none;
 }
 
+.code-img{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
 .contact-me{
     font-weight: bold;
     text-align: center;
     margin: 90px auto 90px;
-}
-
-.footer-link{
-    color: #11999E;
-    margin-right: 50px;
-    
-}
-
-.footer-link:hover{
-    color: #EAF6F6;
 }
 
 .copyright{
@@ -167,3 +110,190 @@ hr{
     font-size: 0.75rem;
     padding: 20px 0;
 }
+
+.family-tree{
+    margin: 20px auto 90px auto;
+}
+
+.footer-link{
+    color: #11999E;
+    margin: 0 25px 0 25px;
+    text-align: center;
+}
+
+.footer-link:hover{
+    color: #EAF6F6;
+}
+
+.guitar-img{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.intro{
+    width: 40%;
+    margin: auto;
+}
+
+.middle-container{
+    position: relative;
+    padding: 100px 0;
+}
+
+.navbar{
+    width: 40%;
+    text-align: center;
+    left: 30%;
+    top: 5%;
+    margin: auto;
+    z-index: 10;
+}
+
+.nav-link{
+    color: #11999E;
+    margin: 0 15px 0 15px;
+    font-size: 20px;
+}
+
+.profile{
+    width: 50%;
+    margin: 20px auto 90px auto;
+}
+
+.profile-img{
+    width: 25%;
+}
+
+.sing-img{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.skills{
+    margin: 90px auto 90px auto;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+.top-cloud{
+    position: absolute;
+    top: 40px;
+    right: 250px;
+} 
+
+.top-container{
+    background-color: #EAF6F6;
+    position: relative;
+    padding: 100px 0;
+}
+
+.tree{
+    position: relative;
+    display: block;
+    width: 100%;
+    margin: 0 auto 0 auto;
+}
+
+/************CLASS OF MY FAMILY in ALPHABETICAL ORDER**********/
+
+.mother{
+    position: relative;
+    margin: 0 auto;
+    width: 10%; 
+    bottom: 220px; 
+    left: 580px;
+
+}
+
+.father{
+    position: relative;
+    margin: 0 auto;
+    width: 10%;  
+    bottom: 220px;
+    left: 580px;    
+}
+
+.brother-0{
+    position: relative;
+    margin: 0 auto;
+    width: 10%;
+    bottom: 890px; 
+    right: 770px;
+}
+
+.brother-1{
+    position: relative;
+    margin: 0 auto;
+    width: 10%; 
+    bottom: 600px;  
+}
+
+.brother-2{
+    position: relative;
+    margin: 0 auto;
+    width: 10%; 
+    bottom: 600px; 
+}
+
+.brother-3{
+    position: relative;
+    margin: 0 auto;
+    width: 10%; 
+    bottom: 600px; 
+}
+
+.brother-4{
+    position: relative;
+    margin: 0 auto;
+    width: 10%; 
+    bottom: 670px; 
+    left: 100px;
+}
+
+.brother-5{
+    position: relative;
+    margin: 0 auto;
+    width: 10%; 
+    bottom: 750px; 
+    right: 550px;
+}
+
+.brother-6{
+    position: relative;
+    margin: 0 auto;
+    width: 10%; 
+    bottom: 800px; 
+    right: 350px;
+}
+
+.sister-1{
+    position: relative;
+    margin: 0 auto;
+    width: 10%; 
+    bottom: 600px; 
+}
+
+.sister-2{
+    position: relative;
+    margin: 0 auto;
+    width: 10%; 
+    bottom: 880px; 
+    right: 100px;
+}
+
+
+
+
+  
+
+
+
+
+
+
