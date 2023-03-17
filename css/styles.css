@@ -1,7 +1,9 @@
+/* RUBIATO, JOHN CLEMENT R. */
+
 /*****************TAG SELECTORS in ALPHABETICAL ORDER*****************/
 a{
     font-family: 'Montserrat', sans-serif;
-    color: #11999E;
+    color: rgb(17, 153, 158);
     font-weight: bold;
     text-decoration: none;
 }
@@ -41,6 +43,10 @@ h3{
     color: #11999E;
 }
 
+nav{
+    transition: background-color 0.4s ease-in-out;
+}
+
 p{
     color: #40514E;
     line-height: 2;
@@ -49,14 +55,22 @@ p{
 /*****************CLASS SELECTORS in ALPHABETICAL ORDER*****************/
 
 .active{
-    border-radius: 10px;
-    background-color: #424747;
+    border-radius: 50px;
+    background-color: rgba(17, 153, 158, 0.2);
+    padding: 15px 40px;
+}
+
+.active-2{
+    border-radius: 50px;
+    background-color: rgba(128, 128, 128, 0.2);
+    padding: 15px 40px;
 }
 
 .bottom-cloud{
     position: absolute;
     left: 300px;
-    bottom: 300px;
+    bottom: 500px;
+    width: 10%;
 }
 
 .bottom-container{
@@ -99,6 +113,12 @@ p{
     margin-right: 30px;
 }
 
+.college{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
 .contact-me{
     font-weight: bold;
     text-align: center;
@@ -111,8 +131,38 @@ p{
     padding: 20px 0;
 }
 
+.couple{
+    width: 20%;
+}
+
+.elementary{
+    width: 40%;
+    float: right;
+    margin-left: 30px;
+}
+
+.family-background{
+    margin: 90px auto 90px auto;
+}
+
+.family-gallery{
+    margin: 90px auto 90px auto;
+}
+
+.family-img{
+    width: 450px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.family-paragraph{
+    width: 60%;
+    text-align: justify;
+    margin: auto;
+}
+
 .family-tree{
-    margin: 20px auto 90px auto;
+    margin: 20px auto 0 auto;
 }
 
 .footer-link{
@@ -125,10 +175,44 @@ p{
     color: #EAF6F6;
 }
 
+.future-goal{
+    width: 50%;
+    margin: 20px auto 90px auto;
+}
+
+.gallery{
+    margin: 90px auto 90px auto;
+}
+
+.gallery-img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.gallery-row{
+    height: 50%;
+    margin: 5px auto 5px auto;
+}
+
+.goal{
+    text-align: justify;
+}
+
 .guitar-img{
     width: 25%;
     float: left;
     margin-right: 30px;
+}
+
+.highschool{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.home{
+    width: 30%;
 }
 
 .intro{
@@ -136,24 +220,39 @@ p{
     margin: auto;
 }
 
+.kindergarten{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
 .middle-container{
     position: relative;
-    padding: 100px 0;
+    padding: 100px 0 0 0;
 }
 
 .navbar{
-    width: 40%;
-    text-align: center;
-    left: 30%;
-    top: 5%;
-    margin: auto;
+    position: fixed;
+    width: 30%;
+    left: 50%; 
+    transform: translateX(-50%);
+    top: 2%;
     z-index: 10;
+    border-radius: 50px;
+    padding: 25px 0;
+}
+
+.navbar-colored {
+    border-radius: 50px;
+    padding: 25px 0;
+    background-color:rgba(0, 32, 34, 0.7);
 }
 
 .nav-link{
+    text-align: center;
     color: #11999E;
     margin: 0 15px 0 15px;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .profile{
@@ -163,6 +262,24 @@ p{
 
 .profile-img{
     width: 25%;
+}
+
+.programming{
+    width: 30%;
+}
+
+.school{
+    width: 35%
+}
+
+.schools{
+    margin: 90px auto 90px auto;
+}
+
+.school-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
 }
 
 .sing-img{
@@ -183,8 +300,9 @@ p{
 
 .top-cloud{
     position: absolute;
-    top: 40px;
+    top: 120px;
     right: 250px;
+    width: 10%;
 } 
 
 .top-container{
@@ -197,7 +315,11 @@ p{
     position: relative;
     display: block;
     width: 100%;
-    margin: 0 auto 0 auto;
+    margin: 0 auto;
+}
+
+.webdev{
+    width: 50%;
 }
 
 /************CLASS OF MY FAMILY in ALPHABETICAL ORDER**********/
@@ -238,22 +360,24 @@ p{
     position: relative;
     margin: 0 auto;
     width: 10%; 
-    bottom: 600px; 
+    bottom: 600px;
+    left: 210px; 
 }
 
 .brother-3{
     position: relative;
     margin: 0 auto;
     width: 10%; 
-    bottom: 600px; 
+    bottom: 640px; 
+    left: 200px;
 }
 
 .brother-4{
     position: relative;
     margin: 0 auto;
     width: 10%; 
-    bottom: 670px; 
-    left: 100px;
+    bottom: 600px; 
+    left: 200px;
 }
 
 .brother-5{
@@ -276,7 +400,8 @@ p{
     position: relative;
     margin: 0 auto;
     width: 10%; 
-    bottom: 600px; 
+    bottom: 720px; 
+    right: 50px;
 }
 
 .sister-2{
@@ -286,6 +411,8 @@ p{
     bottom: 880px; 
     right: 100px;
 }
+
+
 
 
 
